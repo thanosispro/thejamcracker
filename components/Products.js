@@ -6,12 +6,12 @@ import { ShoppingCart } from 'lucide-react';
 
 const Products = () => {
   const items = [
-    { id: 1, name: "Midnight Strat", price: "$1,200", desc: "Sleek finish with vintage pickups.", img: "/image/1.jpg" },
-    { id: 2, name: "Golden Acoustic", price: "$850", desc: "Rich mahogany body, warm tone.", img: "/image/2.jpg" },
-    { id: 3, name: "Bass Master Pro", price: "$1,050", desc: "The ultimate punch for your low end.", img: "/image/3.jpg" },
-    { id: 4, name: "Sunset Hollow", price: "$1,400", desc: "Jazz-inspired resonance.", img: "/image/1.jpg" },
-    { id: 5, name: "Classic Hollow", price: "$900", desc: "Timeless design, modern feel.", img: "/image/2.jpg" },
-    { id: 6, name: "Riff Ripper", price: "$1,100", desc: "Designed for high-gain speed.", img: "/image/3.jpg" },
+    { id: 1, name: "Midnight Strat", price: "Rs.1,200", desc: "Sleek finish with vintage pickups.", img: "/image/1.jpg" },
+    { id: 2, name: "Golden Acoustic", price: "Rs.850", desc: "Rich mahogany body, warm tone.", img: "/image/2.jpg" },
+    { id: 3, name: "Bass Master Pro", price: "Rs.1,050", desc: "The ultimate punch for your low end.", img: "/image/3.jpg" },
+    { id: 4, name: "Sunset Hollow", price: "Rs.1,400", desc: "Jazz-inspired resonance.", img: "/image/1.jpg" },
+    { id: 5, name: "Classic Hollow", price: "Rs.900", desc: "Timeless design, modern feel.", img: "/image/2.jpg" },
+    { id: 6, name: "Riff Ripper", price: "Rs.1,100", desc: "Designed for high-gain speed.", img: "/image/3.jpg" },
   ];
 
   const containerVariants = {
@@ -33,7 +33,7 @@ const Products = () => {
     <section id="products" className="py-24 bg-primary/5">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <motion.h4 
+          <motion.h4
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -41,7 +41,7 @@ const Products = () => {
           >
             Our Gallery
           </motion.h4>
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -52,7 +52,7 @@ const Products = () => {
           </motion.h2>
         </div>
 
-        <motion.div 
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -60,16 +60,16 @@ const Products = () => {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {items.map((item) => (
-            <motion.div 
+            <motion.div
               key={item.id}
               variants={itemVariants}
               whileHover={{ y: -10 }}
               className="bg-background rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-primary/5 group"
             >
               <div className="aspect-square bg-primary/5 relative overflow-hidden">
-                <img 
-                  src={item.img} 
-                  alt={item.name} 
+                <img
+                  src={item.img}
+                  alt={item.name}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <button className="absolute bottom-4 right-4 p-3 bg-primary text-background rounded-full translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 shadow-lg">

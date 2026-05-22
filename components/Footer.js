@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 text-2xl font-bold tracking-tighter mb-6">
               <FaGuitar className="text-accent" />
-              THE JAM <span className="text-accent">CRACKER</span>
+              THE JAM <span className="text-accent">CORNER</span>
             </div>
             <p className="text-background/60 leading-relaxed max-w-xs">
               Your premium destination for guitars and gear in Imadol.
@@ -73,7 +73,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-6 text-background/40 text-sm">
-          <p>© 2026 The Jam Cracker. Imadol, Nepal. All Rights Reserved.</p>
+          <p>© 2026 The Jam CORNER. Imadol, Nepal. All Rights Reserved.</p>
           <div className="flex gap-6">
             <FaInstagram size={20} className="hover:text-accent cursor-pointer transition-colors" />
             <FaFacebook size={20} className="hover:text-accent cursor-pointer transition-colors" />

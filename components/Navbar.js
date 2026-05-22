@@ -32,7 +32,7 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className={`text-2xl font-bold tracking-tighter ${isScrolled ? 'text-background' : 'text-primary'}`}
         >
-          THE JAM <span className="text-accent">CRACKER</span>
+          THE JAM <span className="text-accent">CORNER</span>
         </motion.div>
 
         {/* Desktop Links */}

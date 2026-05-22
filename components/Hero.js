@@ -46,7 +46,7 @@ const Hero = () => {
             className="text-6xl md:text-8xl font-bold mb-4 tracking-tighter leading-none"
           >
             THE JAM <br />
-            <span className="text-accent underline decoration-primary/30">CRACKER</span>
+            <span className="text-accent underline decoration-primary/30">CORNER</span>
           </motion.h1>
 
           <div className="h-8 mb-8">
