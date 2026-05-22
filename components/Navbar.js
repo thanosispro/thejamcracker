@@ -47,10 +47,10 @@ const Navbar = () => {
             </a>
           ))}
           <div className="flex items-center space-x-4 ml-4">
-            <button className={`p-2 rounded-full transition-colors ${isScrolled ? 'text-background hover:bg-background/10' : 'text-amber-500 hover:bg-white'}`}>
+            <button className={`p-2 rounded-full transition-colors ${isScrolled ? 'text-background hover:bg-background/10' : 'text-amber-300 hover:bg-white'}`}>
               <ShoppingCart size={20} />
             </button>
-            <button className={`p-2 rounded-full transition-colors ${isScrolled ? 'text-background hover:bg-background/10' : 'text-amber-500 hover:bg-white'}`}>
+            <button className={`p-2 rounded-full transition-colors ${isScrolled ? 'text-background hover:bg-background/10' : 'text-amber-300 hover:bg-white'}`}>
               <MessageSquare size={20} />
             </button>
           </div>

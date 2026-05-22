@@ -70,7 +70,7 @@ const Hero = () => {
             </a>
             <a
               href="#location"
-              className="px-8 py-4 border border-background/20 backdrop-blur-sm rounded-full font-semibold flex items-center gap-2 hover:bg-background/10 transition-all duration-300"
+              className="px-8 py-4 border border-background/20 backdrop-blur-sm rounded-full font-semibold flex bg-black items-center gap-2 hover:bg-orange-500 transition-all duration-300"
             >
               Visit Shop
               <MapPin size={20} />
